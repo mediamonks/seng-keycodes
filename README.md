@@ -6,7 +6,7 @@
 
 # seng-keycodes
 
-Add a description here...
+Contains the key codes as static values for keys on your keyboard. Useful for auto completion and readability.
 
 
 ## Installation
