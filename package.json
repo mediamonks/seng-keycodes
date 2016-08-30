@@ -64,7 +64,7 @@
     "mediamonks",
     "keycodes",
     "keys",
-    " keyboard"
+    "keyboard"
   ],
   "bugs": {
     "url": "https://github.com/mediamonks/seng-keycodes/issues"
