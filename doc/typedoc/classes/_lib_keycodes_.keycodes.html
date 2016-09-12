@@ -73,19 +73,38 @@
 			<section class="tsd-panel tsd-comment">
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p> Class contains the keycodes for keys on your keyboard.</p>
+						<p>Class contains the keycodes for keys on your keyboard.</p>
 					</div>
-					<dl class="tsd-comment-tags">
-						<dt>module</dt>
-						<dd><p>seng-keycodes</p>
-						</dd>
-						<dt>namespace</dt>
-						<dd><p>lib</p>
-						</dd>
-						<dt>class</dt>
-						<dd><p>KeyCodes</p>
-						</dd>
-					</dl>
+					<p>Useful for auto completion:</p>
+					<pre><code><span class="hljs-keyword">switch</span> (event.key)
+{
+     <span class="hljs-keyword">case</span> KeyCode.<span class="hljs-string">UP:</span>
+     {
+         <span class="hljs-comment">// Up key pressed</span>
+          <span class="hljs-keyword">break</span>;
+     }
+     <span class="hljs-keyword">case</span> KeyCode.<span class="hljs-string">DOWN:</span>
+     {
+         <span class="hljs-comment">// Down key pressed</span>
+          <span class="hljs-keyword">break</span>;
+     }
+     <span class="hljs-keyword">case</span> KeyCode.<span class="hljs-string">LEFT:</span>
+     {
+         <span class="hljs-comment">// Left key pressed</span>
+          <span class="hljs-keyword">break</span>;
+     }
+     <span class="hljs-keyword">case</span> KeyCode.<span class="hljs-string">RIGHT:</span>
+     {
+         <span class="hljs-comment">// Right key pressed</span>
+          <span class="hljs-keyword">break</span>;
+     }
+<span class="hljs-symbol">     default:</span>
+     {
+         <span class="hljs-comment">// ignore</span>
+         <span class="hljs-keyword">break</span>;
+     }
+}
+</code></pre>
 				</div>
 			</section>
 			<section class="tsd-panel tsd-hierarchy">
@@ -214,24 +233,9 @@
 					<div class="tsd-signature tsd-kind-icon">A<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;65</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L496">lib/KeyCodes.ts:496</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L99">lib/KeyCodes.ts:99</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>A</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>65</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="add" class="tsd-anchor"></a>
@@ -239,24 +243,9 @@
 					<div class="tsd-signature tsd-kind-icon">ADD<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;187</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L792">lib/KeyCodes.ts:792</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L136">lib/KeyCodes.ts:136</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>ADD</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>187</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="alt" class="tsd-anchor"></a>
@@ -264,24 +253,9 @@
 					<div class="tsd-signature tsd-kind-icon">ALT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;18</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L472">lib/KeyCodes.ts:472</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L96">lib/KeyCodes.ts:96</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>ALT</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>18</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="b" class="tsd-anchor"></a>
@@ -289,24 +263,9 @@
 					<div class="tsd-signature tsd-kind-icon">B<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;66</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L504">lib/KeyCodes.ts:504</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L100">lib/KeyCodes.ts:100</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>B</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>66</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="backquote" class="tsd-anchor"></a>
@@ -314,24 +273,9 @@
 					<div class="tsd-signature tsd-kind-icon">BACKQUOTE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;192</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L432">lib/KeyCodes.ts:432</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L91">lib/KeyCodes.ts:91</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>BACKQUOTE</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>192</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="backslash" class="tsd-anchor"></a>
@@ -339,24 +283,9 @@
 					<div class="tsd-signature tsd-kind-icon">BACKSLASH<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;220</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L448">lib/KeyCodes.ts:448</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L93">lib/KeyCodes.ts:93</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>BACKSLASH</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>220</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="backspace" class="tsd-anchor"></a>
@@ -364,24 +293,9 @@
 					<div class="tsd-signature tsd-kind-icon">BACKSPACE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;8</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L248">lib/KeyCodes.ts:248</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L68">lib/KeyCodes.ts:68</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>BACKSPACE</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>8</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="c" class="tsd-anchor"></a>
@@ -389,24 +303,9 @@
 					<div class="tsd-signature tsd-kind-icon">C<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;67</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L512">lib/KeyCodes.ts:512</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L101">lib/KeyCodes.ts:101</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>C</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>67</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="caps_lock" class="tsd-anchor"></a>
@@ -414,24 +313,9 @@
 					<div class="tsd-signature tsd-kind-icon">CAPS_<wbr>LOCK<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;20</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L24">lib/KeyCodes.ts:24</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L40">lib/KeyCodes.ts:40</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>CAPS_LOCK</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>20</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="comma" class="tsd-anchor"></a>
@@ -439,24 +323,9 @@
 					<div class="tsd-signature tsd-kind-icon">COMMA<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;188</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L400">lib/KeyCodes.ts:400</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L87">lib/KeyCodes.ts:87</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>COMMA</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>188</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="command" class="tsd-anchor"></a>
@@ -464,24 +333,9 @@
 					<div class="tsd-signature tsd-kind-icon">COMMAND<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;15</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L480">lib/KeyCodes.ts:480</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L97">lib/KeyCodes.ts:97</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>COMMAND</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>15</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="control" class="tsd-anchor"></a>
@@ -489,24 +343,9 @@
 					<div class="tsd-signature tsd-kind-icon">CONTROL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;17</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L40">lib/KeyCodes.ts:40</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L42">lib/KeyCodes.ts:42</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>CONTROL</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>17</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="d" class="tsd-anchor"></a>
@@ -514,24 +353,9 @@
 					<div class="tsd-signature tsd-kind-icon">D<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;68</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L520">lib/KeyCodes.ts:520</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L102">lib/KeyCodes.ts:102</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>D</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>68</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="delete" class="tsd-anchor"></a>
@@ -539,24 +363,9 @@
 					<div class="tsd-signature tsd-kind-icon">DELETE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;46</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L224">lib/KeyCodes.ts:224</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L65">lib/KeyCodes.ts:65</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>DELETE</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>46</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="down" class="tsd-anchor"></a>
@@ -564,24 +373,9 @@
 					<div class="tsd-signature tsd-kind-icon">DOWN<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;40</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L56">lib/KeyCodes.ts:56</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L44">lib/KeyCodes.ts:44</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>DOWN</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>40</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="e" class="tsd-anchor"></a>
@@ -589,24 +383,9 @@
 					<div class="tsd-signature tsd-kind-icon">E<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;69</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L528">lib/KeyCodes.ts:528</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L103">lib/KeyCodes.ts:103</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>E</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>69</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="end" class="tsd-anchor"></a>
@@ -614,24 +393,9 @@
 					<div class="tsd-signature tsd-kind-icon">END<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;35</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L232">lib/KeyCodes.ts:232</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L66">lib/KeyCodes.ts:66</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>END</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>35</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="enter" class="tsd-anchor"></a>
@@ -639,24 +403,9 @@
 					<div class="tsd-signature tsd-kind-icon">ENTER<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;13</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L240">lib/KeyCodes.ts:240</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L67">lib/KeyCodes.ts:67</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>ENTER</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>13</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="equal" class="tsd-anchor"></a>
@@ -664,24 +413,9 @@
 					<div class="tsd-signature tsd-kind-icon">EQUAL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;187</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L392">lib/KeyCodes.ts:392</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L86">lib/KeyCodes.ts:86</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>EQUAL</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>187</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="escape" class="tsd-anchor"></a>
@@ -689,24 +423,9 @@
 					<div class="tsd-signature tsd-kind-icon">ESCAPE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;27</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L88">lib/KeyCodes.ts:88</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L48">lib/KeyCodes.ts:48</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>ESCAPE</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>27</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="f" class="tsd-anchor"></a>
@@ -714,24 +433,9 @@
 					<div class="tsd-signature tsd-kind-icon">F<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;70</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L536">lib/KeyCodes.ts:536</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L104">lib/KeyCodes.ts:104</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>F</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>70</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="f1" class="tsd-anchor"></a>
@@ -739,24 +443,9 @@
 					<div class="tsd-signature tsd-kind-icon">F1<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;112</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L96">lib/KeyCodes.ts:96</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L49">lib/KeyCodes.ts:49</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>F1</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>112</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="f10" class="tsd-anchor"></a>
@@ -764,24 +453,9 @@
 					<div class="tsd-signature tsd-kind-icon">F10<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;121</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L168">lib/KeyCodes.ts:168</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L58">lib/KeyCodes.ts:58</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>F10</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>121</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="f11" class="tsd-anchor"></a>
@@ -789,24 +463,9 @@
 					<div class="tsd-signature tsd-kind-icon">F11<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;122</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L176">lib/KeyCodes.ts:176</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L59">lib/KeyCodes.ts:59</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>F11</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>122</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="f12" class="tsd-anchor"></a>
@@ -814,24 +473,9 @@
 					<div class="tsd-signature tsd-kind-icon">F12<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;123</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L184">lib/KeyCodes.ts:184</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L60">lib/KeyCodes.ts:60</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>F12</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>123</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="f2" class="tsd-anchor"></a>
@@ -839,24 +483,9 @@
 					<div class="tsd-signature tsd-kind-icon">F2<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;113</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L104">lib/KeyCodes.ts:104</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L50">lib/KeyCodes.ts:50</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>F2</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>113</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="f3" class="tsd-anchor"></a>
@@ -864,24 +493,9 @@
 					<div class="tsd-signature tsd-kind-icon">F3<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;114</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L112">lib/KeyCodes.ts:112</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L51">lib/KeyCodes.ts:51</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>F3</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>114</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="f4" class="tsd-anchor"></a>
@@ -889,24 +503,9 @@
 					<div class="tsd-signature tsd-kind-icon">F4<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;115</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L120">lib/KeyCodes.ts:120</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L52">lib/KeyCodes.ts:52</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>F4</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>115</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="f5" class="tsd-anchor"></a>
@@ -914,24 +513,9 @@
 					<div class="tsd-signature tsd-kind-icon">F5<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;116</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L128">lib/KeyCodes.ts:128</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L53">lib/KeyCodes.ts:53</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>F5</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>116</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="f6" class="tsd-anchor"></a>
@@ -939,24 +523,9 @@
 					<div class="tsd-signature tsd-kind-icon">F6<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;117</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L136">lib/KeyCodes.ts:136</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L54">lib/KeyCodes.ts:54</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>F6</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>117</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="f7" class="tsd-anchor"></a>
@@ -964,24 +533,9 @@
 					<div class="tsd-signature tsd-kind-icon">F7<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;118</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L144">lib/KeyCodes.ts:144</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L55">lib/KeyCodes.ts:55</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>F7</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>118</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="f8" class="tsd-anchor"></a>
@@ -989,24 +543,9 @@
 					<div class="tsd-signature tsd-kind-icon">F8<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;119</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L152">lib/KeyCodes.ts:152</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L56">lib/KeyCodes.ts:56</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>F8</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>119</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="f9" class="tsd-anchor"></a>
@@ -1014,24 +553,9 @@
 					<div class="tsd-signature tsd-kind-icon">F9<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;120</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L160">lib/KeyCodes.ts:160</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L57">lib/KeyCodes.ts:57</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>F9</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>120</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="g" class="tsd-anchor"></a>
@@ -1039,24 +563,9 @@
 					<div class="tsd-signature tsd-kind-icon">G<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;71</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L544">lib/KeyCodes.ts:544</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L105">lib/KeyCodes.ts:105</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>G</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>71</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="h" class="tsd-anchor"></a>
@@ -1064,24 +573,9 @@
 					<div class="tsd-signature tsd-kind-icon">H<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;72</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L552">lib/KeyCodes.ts:552</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L106">lib/KeyCodes.ts:106</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>H</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>72</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="home" class="tsd-anchor"></a>
@@ -1089,24 +583,9 @@
 					<div class="tsd-signature tsd-kind-icon">HOME<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;36</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L200">lib/KeyCodes.ts:200</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L62">lib/KeyCodes.ts:62</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>HOME</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>36</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="i" class="tsd-anchor"></a>
@@ -1114,24 +593,9 @@
 					<div class="tsd-signature tsd-kind-icon">I<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;73</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L560">lib/KeyCodes.ts:560</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L107">lib/KeyCodes.ts:107</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>I</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>73</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="insert" class="tsd-anchor"></a>
@@ -1139,24 +603,9 @@
 					<div class="tsd-signature tsd-kind-icon">INSERT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;45</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L192">lib/KeyCodes.ts:192</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L61">lib/KeyCodes.ts:61</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>INSERT</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>45</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="j" class="tsd-anchor"></a>
@@ -1164,24 +613,9 @@
 					<div class="tsd-signature tsd-kind-icon">J<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;74</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L568">lib/KeyCodes.ts:568</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L108">lib/KeyCodes.ts:108</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>J</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>74</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="k" class="tsd-anchor"></a>
@@ -1189,24 +623,9 @@
 					<div class="tsd-signature tsd-kind-icon">K<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;75</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L576">lib/KeyCodes.ts:576</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L109">lib/KeyCodes.ts:109</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>K</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>75</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="l" class="tsd-anchor"></a>
@@ -1214,24 +633,9 @@
 					<div class="tsd-signature tsd-kind-icon">L<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;76</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L584">lib/KeyCodes.ts:584</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L110">lib/KeyCodes.ts:110</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>L</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>76</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="left" class="tsd-anchor"></a>
@@ -1239,24 +643,9 @@
 					<div class="tsd-signature tsd-kind-icon">LEFT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;37</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L72">lib/KeyCodes.ts:72</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L46">lib/KeyCodes.ts:46</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>LEFT</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>37</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="leftbracket" class="tsd-anchor"></a>
@@ -1264,24 +653,9 @@
 					<div class="tsd-signature tsd-kind-icon">LEFTBRACKET<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;219</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L440">lib/KeyCodes.ts:440</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L92">lib/KeyCodes.ts:92</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>LEFTBRACKET</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>219</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="m" class="tsd-anchor"></a>
@@ -1289,24 +663,9 @@
 					<div class="tsd-signature tsd-kind-icon">M<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;77</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L592">lib/KeyCodes.ts:592</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L111">lib/KeyCodes.ts:111</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>M</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>77</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="minus" class="tsd-anchor"></a>
@@ -1314,24 +673,9 @@
 					<div class="tsd-signature tsd-kind-icon">MINUS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;189</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L408">lib/KeyCodes.ts:408</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L88">lib/KeyCodes.ts:88</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>MINUS</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>189</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="n" class="tsd-anchor"></a>
@@ -1339,24 +683,9 @@
 					<div class="tsd-signature tsd-kind-icon">N<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;78</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L600">lib/KeyCodes.ts:600</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L112">lib/KeyCodes.ts:112</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>N</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>78</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="numpad" class="tsd-anchor"></a>
@@ -1364,24 +693,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUMPAD<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;21</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L488">lib/KeyCodes.ts:488</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L98">lib/KeyCodes.ts:98</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUMPAD</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>21</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="numpad_0" class="tsd-anchor"></a>
@@ -1389,24 +703,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUMPAD_<wbr>0<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;96</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L256">lib/KeyCodes.ts:256</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L69">lib/KeyCodes.ts:69</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUMPAD_0</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>96</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="numpad_1" class="tsd-anchor"></a>
@@ -1414,24 +713,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUMPAD_<wbr>1<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;97</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L264">lib/KeyCodes.ts:264</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L70">lib/KeyCodes.ts:70</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUMPAD_1</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>97</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="numpad_2" class="tsd-anchor"></a>
@@ -1439,24 +723,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUMPAD_<wbr>2<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;98</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L272">lib/KeyCodes.ts:272</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L71">lib/KeyCodes.ts:71</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUMPAD_2</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>98</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="numpad_3" class="tsd-anchor"></a>
@@ -1464,24 +733,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUMPAD_<wbr>3<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;99</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L280">lib/KeyCodes.ts:280</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L72">lib/KeyCodes.ts:72</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUMPAD_3</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>99</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="numpad_4" class="tsd-anchor"></a>
@@ -1489,24 +743,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUMPAD_<wbr>4<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;100</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L288">lib/KeyCodes.ts:288</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L73">lib/KeyCodes.ts:73</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUMPAD_4</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>100</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="numpad_5" class="tsd-anchor"></a>
@@ -1514,24 +753,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUMPAD_<wbr>5<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;101</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L296">lib/KeyCodes.ts:296</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L74">lib/KeyCodes.ts:74</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUMPAD_5</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>101</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="numpad_6" class="tsd-anchor"></a>
@@ -1539,24 +763,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUMPAD_<wbr>6<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;102</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L304">lib/KeyCodes.ts:304</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L75">lib/KeyCodes.ts:75</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUMPAD_6</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>102</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="numpad_7" class="tsd-anchor"></a>
@@ -1564,24 +773,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUMPAD_<wbr>7<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;103</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L312">lib/KeyCodes.ts:312</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L76">lib/KeyCodes.ts:76</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUMPAD_7</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>103</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="numpad_8" class="tsd-anchor"></a>
@@ -1589,24 +783,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUMPAD_<wbr>8<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;104</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L320">lib/KeyCodes.ts:320</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L77">lib/KeyCodes.ts:77</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUMPAD_8</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>104</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="numpad_9" class="tsd-anchor"></a>
@@ -1614,24 +793,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUMPAD_<wbr>9<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;105</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L328">lib/KeyCodes.ts:328</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L78">lib/KeyCodes.ts:78</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUMPAD_9</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>105</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="numpad_add" class="tsd-anchor"></a>
@@ -1639,24 +803,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUMPAD_<wbr>ADD<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;107</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L344">lib/KeyCodes.ts:344</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L80">lib/KeyCodes.ts:80</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUMPAD_ADD</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>107</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="numpad_decimal" class="tsd-anchor"></a>
@@ -1664,24 +813,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUMPAD_<wbr>DECIMAL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;110</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L360">lib/KeyCodes.ts:360</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L82">lib/KeyCodes.ts:82</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUMPAD_DECIMAL</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>110</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="numpad_divide" class="tsd-anchor"></a>
@@ -1689,24 +823,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUMPAD_<wbr>DIVIDE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;111</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L336">lib/KeyCodes.ts:336</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L79">lib/KeyCodes.ts:79</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUMPAD_DIVIDE</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>111</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="numpad_enter" class="tsd-anchor"></a>
@@ -1714,24 +833,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUMPAD_<wbr>ENTER<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;13</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L352">lib/KeyCodes.ts:352</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L81">lib/KeyCodes.ts:81</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUMPAD_ENTER</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>13</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="numpad_multiply" class="tsd-anchor"></a>
@@ -1739,24 +843,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUMPAD_<wbr>MULTIPLY<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;106</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L376">lib/KeyCodes.ts:376</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L84">lib/KeyCodes.ts:84</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUMPAD_MULTIPLY</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>106</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="numpad_subtract" class="tsd-anchor"></a>
@@ -1764,24 +853,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUMPAD_<wbr>SUBTRACT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;109</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L368">lib/KeyCodes.ts:368</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L83">lib/KeyCodes.ts:83</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUMPAD_SUBTRACT</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>109</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="num_0" class="tsd-anchor"></a>
@@ -1789,24 +863,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUM_<wbr>0<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;48</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L704">lib/KeyCodes.ts:704</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L125">lib/KeyCodes.ts:125</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUM_0</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>48</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="num_1" class="tsd-anchor"></a>
@@ -1814,24 +873,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUM_<wbr>1<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;49</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L712">lib/KeyCodes.ts:712</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L126">lib/KeyCodes.ts:126</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUM_1</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>49</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="num_2" class="tsd-anchor"></a>
@@ -1839,24 +883,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUM_<wbr>2<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;50</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L720">lib/KeyCodes.ts:720</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L127">lib/KeyCodes.ts:127</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUM_2</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>50</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="num_3" class="tsd-anchor"></a>
@@ -1864,24 +893,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUM_<wbr>3<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;51</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L728">lib/KeyCodes.ts:728</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L128">lib/KeyCodes.ts:128</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUM_3</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>51</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="num_4" class="tsd-anchor"></a>
@@ -1889,24 +903,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUM_<wbr>4<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;52</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L736">lib/KeyCodes.ts:736</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L129">lib/KeyCodes.ts:129</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUM_4</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>52</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="num_5" class="tsd-anchor"></a>
@@ -1914,24 +913,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUM_<wbr>5<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;53</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L744">lib/KeyCodes.ts:744</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L130">lib/KeyCodes.ts:130</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUM_5</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>53</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="num_6" class="tsd-anchor"></a>
@@ -1939,24 +923,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUM_<wbr>6<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;54</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L752">lib/KeyCodes.ts:752</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L131">lib/KeyCodes.ts:131</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUM_6</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>54</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="num_7" class="tsd-anchor"></a>
@@ -1964,24 +933,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUM_<wbr>7<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;55</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L760">lib/KeyCodes.ts:760</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L132">lib/KeyCodes.ts:132</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUM_7</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>55</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="num_8" class="tsd-anchor"></a>
@@ -1989,24 +943,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUM_<wbr>8<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;56</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L768">lib/KeyCodes.ts:768</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L133">lib/KeyCodes.ts:133</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUM_8</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>56</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="num_9" class="tsd-anchor"></a>
@@ -2014,24 +953,9 @@
 					<div class="tsd-signature tsd-kind-icon">NUM_<wbr>9<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;57</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L776">lib/KeyCodes.ts:776</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L134">lib/KeyCodes.ts:134</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>NUM_9</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>57</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="o" class="tsd-anchor"></a>
@@ -2039,24 +963,9 @@
 					<div class="tsd-signature tsd-kind-icon">O<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;79</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L608">lib/KeyCodes.ts:608</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L113">lib/KeyCodes.ts:113</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>O</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>79</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="p" class="tsd-anchor"></a>
@@ -2064,24 +973,9 @@
 					<div class="tsd-signature tsd-kind-icon">P<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;80</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L616">lib/KeyCodes.ts:616</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L114">lib/KeyCodes.ts:114</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>P</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>80</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="page_down" class="tsd-anchor"></a>
@@ -2089,24 +983,9 @@
 					<div class="tsd-signature tsd-kind-icon">PAGE_<wbr>DOWN<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;34</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L216">lib/KeyCodes.ts:216</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L64">lib/KeyCodes.ts:64</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>PAGE_DOWN</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>34</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="page_up" class="tsd-anchor"></a>
@@ -2114,24 +993,9 @@
 					<div class="tsd-signature tsd-kind-icon">PAGE_<wbr>UP<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;33</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L208">lib/KeyCodes.ts:208</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L63">lib/KeyCodes.ts:63</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>PAGE_UP</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>33</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="period" class="tsd-anchor"></a>
@@ -2139,24 +1003,9 @@
 					<div class="tsd-signature tsd-kind-icon">PERIOD<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;190</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L416">lib/KeyCodes.ts:416</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L89">lib/KeyCodes.ts:89</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>PERIOD</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>190</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="q" class="tsd-anchor"></a>
@@ -2164,24 +1013,9 @@
 					<div class="tsd-signature tsd-kind-icon">Q<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;81</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L624">lib/KeyCodes.ts:624</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L115">lib/KeyCodes.ts:115</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>Q</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>81</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="quote" class="tsd-anchor"></a>
@@ -2189,24 +1023,9 @@
 					<div class="tsd-signature tsd-kind-icon">QUOTE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;222</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L464">lib/KeyCodes.ts:464</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L95">lib/KeyCodes.ts:95</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>QUOTE</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>222</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="r" class="tsd-anchor"></a>
@@ -2214,24 +1033,9 @@
 					<div class="tsd-signature tsd-kind-icon">R<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;82</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L632">lib/KeyCodes.ts:632</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L116">lib/KeyCodes.ts:116</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>R</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>82</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="right" class="tsd-anchor"></a>
@@ -2239,24 +1043,9 @@
 					<div class="tsd-signature tsd-kind-icon">RIGHT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;39</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L80">lib/KeyCodes.ts:80</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L47">lib/KeyCodes.ts:47</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>RIGHT</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>39</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="rightbracket" class="tsd-anchor"></a>
@@ -2264,24 +1053,9 @@
 					<div class="tsd-signature tsd-kind-icon">RIGHTBRACKET<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;221</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L456">lib/KeyCodes.ts:456</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L94">lib/KeyCodes.ts:94</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>RIGHTBRACKET</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>221</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="s" class="tsd-anchor"></a>
@@ -2289,24 +1063,9 @@
 					<div class="tsd-signature tsd-kind-icon">S<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;83</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L640">lib/KeyCodes.ts:640</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L117">lib/KeyCodes.ts:117</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>S</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>83</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="semicolon" class="tsd-anchor"></a>
@@ -2314,24 +1073,9 @@
 					<div class="tsd-signature tsd-kind-icon">SEMICOLON<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;186</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L384">lib/KeyCodes.ts:384</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L85">lib/KeyCodes.ts:85</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>SEMICOLON</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>186</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="shift" class="tsd-anchor"></a>
@@ -2339,24 +1083,9 @@
 					<div class="tsd-signature tsd-kind-icon">SHIFT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;16</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L32">lib/KeyCodes.ts:32</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L41">lib/KeyCodes.ts:41</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>SHIFT</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>16</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="slash" class="tsd-anchor"></a>
@@ -2364,24 +1093,9 @@
 					<div class="tsd-signature tsd-kind-icon">SLASH<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;191</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L424">lib/KeyCodes.ts:424</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L90">lib/KeyCodes.ts:90</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>SLASH</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>191</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="space" class="tsd-anchor"></a>
@@ -2389,24 +1103,9 @@
 					<div class="tsd-signature tsd-kind-icon">SPACE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;32</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L48">lib/KeyCodes.ts:48</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L43">lib/KeyCodes.ts:43</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>SPACE</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>32</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="substract" class="tsd-anchor"></a>
@@ -2414,24 +1113,9 @@
 					<div class="tsd-signature tsd-kind-icon">SUBSTRACT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;189</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L784">lib/KeyCodes.ts:784</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L135">lib/KeyCodes.ts:135</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>SUBSTRACT</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>189</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="t" class="tsd-anchor"></a>
@@ -2439,24 +1123,9 @@
 					<div class="tsd-signature tsd-kind-icon">T<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;84</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L648">lib/KeyCodes.ts:648</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L118">lib/KeyCodes.ts:118</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>T</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>84</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="tab" class="tsd-anchor"></a>
@@ -2464,24 +1133,9 @@
 					<div class="tsd-signature tsd-kind-icon">TAB<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;9</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L16">lib/KeyCodes.ts:16</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L39">lib/KeyCodes.ts:39</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>TAB</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>9</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="u" class="tsd-anchor"></a>
@@ -2489,24 +1143,9 @@
 					<div class="tsd-signature tsd-kind-icon">U<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;85</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L656">lib/KeyCodes.ts:656</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L119">lib/KeyCodes.ts:119</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>U</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>85</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="up" class="tsd-anchor"></a>
@@ -2514,24 +1153,9 @@
 					<div class="tsd-signature tsd-kind-icon">UP<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;38</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L64">lib/KeyCodes.ts:64</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L45">lib/KeyCodes.ts:45</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>UP</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>38</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="v" class="tsd-anchor"></a>
@@ -2539,24 +1163,9 @@
 					<div class="tsd-signature tsd-kind-icon">V<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;86</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L664">lib/KeyCodes.ts:664</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L120">lib/KeyCodes.ts:120</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>V</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>86</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="w" class="tsd-anchor"></a>
@@ -2564,24 +1173,9 @@
 					<div class="tsd-signature tsd-kind-icon">W<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;87</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L672">lib/KeyCodes.ts:672</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L121">lib/KeyCodes.ts:121</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>W</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>87</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="x" class="tsd-anchor"></a>
@@ -2589,24 +1183,9 @@
 					<div class="tsd-signature tsd-kind-icon">X<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;88</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L680">lib/KeyCodes.ts:680</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L122">lib/KeyCodes.ts:122</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>X</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>88</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="y" class="tsd-anchor"></a>
@@ -2614,24 +1193,9 @@
 					<div class="tsd-signature tsd-kind-icon">Y<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;89</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L688">lib/KeyCodes.ts:688</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L123">lib/KeyCodes.ts:123</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>Y</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>89</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-external">
 					<a name="z" class="tsd-anchor"></a>
@@ -2639,24 +1203,9 @@
 					<div class="tsd-signature tsd-kind-icon">Z<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;90</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/c0bc309/src/lib/KeyCodes.ts#L696">lib/KeyCodes.ts:696</a></li>
+							<li>Defined in <a href="https://github.com/mediamonks/seng-keycodes/blob/647a068/src/lib/KeyCodes.ts#L124">lib/KeyCodes.ts:124</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>static</dt>
-							<dd></dd>
-							<dt>property</dt>
-							<dd><p>Z</p>
-							</dd>
-							<dt>type</dt>
-							<dd><p>number</p>
-							</dd>
-							<dt>default</dt>
-							<dd><p>90</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 			</section>
 		</div>
