@@ -1,5 +1,38 @@
 /**
  * Class contains the keycodes for keys on your keyboard.
+ *
+ * Useful for auto completion:
+ *
+ * ```
+ * switch (event.key)
+ * {
+ *      case KeyCode.UP:
+ *      {
+ *      	// Up key pressed
+ *       	break;
+ *      }
+ *      case KeyCode.DOWN:
+ *      {
+ *      	// Down key pressed
+ *       	break;
+ *      }
+ *      case KeyCode.LEFT:
+ *      {
+ *      	// Left key pressed
+ *       	break;
+ *      }
+ *      case KeyCode.RIGHT:
+ *      {
+ *      	// Right key pressed
+ *       	break;
+ *      }
+ *      default:
+ *      {
+ *      	// ignore
+ *      	break;
+ *      }
+ * }
+ * ```
  */
 export default class KeyCodes
 {
