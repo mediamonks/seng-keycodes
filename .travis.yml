@@ -1,65 +1,25 @@
 language: node_js
 
+cache: yarn
+
 node_js:
   - 'stable'
-  - '4'
-  - '5'
+  - '6'
+  - '8'
 
 sudo: false
 
 before_install:
-  - if [[ `npm -v` != 3* ]]; then npm i -g npm@3; fi
-  - npm install -g typings
-  - npm install -g codeclimate-test-reporter
+  - yarn global add codeclimate-test-reporter
 
 script:
-  - npm run build
-  - npm run validate
-
-after_script:
-  - codeclimate-test-reporter < coverage/lcov.info
-  - node_modules/.bin/coveralls < coverage/lcov.info
-
-before_deploy:
-  - npm run build:dist && node ./script/package-dist.js
+  - yarn test
 
 deploy:
   - provider: npm
     email: 'devmonk@mediamonks.com'
-    api_key:
-      secure: 'RkBHZYkjttT23fdxkFKWh6Jj190O59mCUtGzhtanoI9HR2T3NMqZ52aN2Jeh/h0jflvn6HYWSQFruVWzjVswoZj6cfrT4MHLCpR1ZiczCtthNud4m1rpzAlV5UNoWR0QrMwZqi/iZtfXTeTFSEXZYtJiUv/ftJ6rB0YkgDancFKjQOH+H5J83QIj8hLufvJEbeNVk0PTqFtxRVuFZRtiQEQ5L4X08dRjL0jHaeBbZbCQt6jEcSN9u+urvxH9usdMdzOhn5dFuEILPOg28HGg2TkSoy/0HlGjiXMtNPhfgxzCzwbPfj9aME+V+wJGZ7xCWOxQjb/L6pGupw9utwGzDRxFXzWwjRPdUeIrJpJxbvOuEH2bhlgHg58a+yptaOipeWuZIoumZ4U67E2XMt3NWQW2SbdxZDf9YO6rOPFJaP0S0oUHcP2qKthOvSCUVi7nC+4bXZ1NBHYiBhqYwV/Feho9TPVaCMhnI5lUMOvsQyKvvOASIC8e7DvBVT0qiS+xfxGjzQt1nhnBXd0p4PINNfrriYmAar137F1DGMHHlSAAV04yYRFeDiClZv6ES9TFIhV6Zx/DNiFlxlhQPi2W+8Suwc1paL0ygnoJk+vqOEGWTG95trzMhHbbwRnsbggcrFOZ7zhdYz5qBsyQ1ZTr7Obx5SF4Y3Qdv3MoC9t9ARw='
+    api_key: $NPM_TOKEN
     on:
       tags: true
-      node: '4'
+      node: '8'
     skip_cleanup: true
-
-  - provider: s3
-    access_key_id:
-      secure: 'BV9B80rsAWYaQkF23vQIT9o7536RCG9SYHUKff/aTlgRHnA9FqbBDork2CZ/u2FZO1XaX8CIDjRolLAFqCYfzO4kSufUdMEhkYtx+j0AX27lszVr4Xw0JZqIgZ6EfQq6rCs+Rq4nRR/qIjaifpxpXHdtbte2KTAhdLlAWgJM0JB8DZl8JGxwpByRxcRw+aJw1STqF4yCV7gV5R7LxBrlyFnOEgvTGR80L+d8twzIAoa3IRLYz8cW7SHLffaRVJLr6I0/Jcw8+LryXKHPkQd+/qrqOAtwZiUSlEmp9d+drqIHTre2nvN4gXzVas9Qg00aKStE3qnJJ9um0UiaGb0yQqXjNlTYLlwNZtT62DMI6UFIEs+/79WLWQ6hgvQS8IJ9wjzsB1is/Ml1OqvKyNOGaQp1bdJBlgmPUOcd9OCLLK7DcG22b2Ic9vMFEy5PAmQIZeYf5j6rRvXqy8eYJJt0TOrS1m024Y5Zau1WcrlVc/RM91QOlw3UOGZ6be5VRQRZ3tFhh+Wx1618x8UNVckiWZ9iqhtW90c0E6kZJDR7n+byKrxUQeyeGrJxpC8U5+ZuzfDgB6wcJ8SmNL1nR81L/jXx/TvvK7x/rEZgWw8Ra/8yB9W54Zb35frRCtF6XE907fIBOS1fMJ8sjNX8T0mXg3RdpWei8ZZUX9aadscKQDc='
-    secret_access_key:
-      secure: 'DRV5VfnUuuFjh5ZCAqHU2U8fqu+wnWeGxOeCUenC/4Zvt5w6h27c6p/SbHXtslN1PtotLiMrkb5T8fx0WmVVK51LeTaDeIa91XgKamemXBzrdNlfsYa2Iiag6m0aLqzVsM73TvLQaFR0YUy933MidZTiX/y1hy6rVOQT8OPRqnEog7gSy4IrlGe8hUyCqrPeQmzWuIj+UYDsJbkJ0lBGyJDf5s0XV4KjmT/s79v/McRS/9drlG0n0/v7uHdoMEXqTFeqQlwZuLwVsNdX1YT57fM4ES4U/ECPHPtcbAY6qJ3WS1WSLKXbLqNocNxTd3Xp6du6hpHsecvAWTvRwzI3YQasqtmZKDNLwkIw8H9YmhIP6sjnexWYZVbJDZFkBykvXCXj/NvBmH8a7yYc3uLAtULe5mSULz7fi2WvfYYwDz8ulDYYKpH4yt3D+4OHrWXQMiq8o6RogSV9jcXGb/aIFIBTArwEMlnBVEcu++wc9ORFi44AYRRe3dImD//cGGXn88Of/djKK1r+KquwUC631KHIi7Yif1RboDlwV7mBTM5f1DfhFad79Xmq/xBNbG2PKp6O6sQ93/pAAN80cVC9N0pI9nV4pjYv1XF8AhDgRjHhVV05K9n8RJq4mlA3Wwnswh+nwrDhpk9u3d52uATZFuRP3MGeCzJLOvZbX6jqhzw='
-    bucket: "mediamonks-development"
-    local_dir: 'dist'
-    upload-dir: 'seng/libs'
-    on:
-      tags: true
-      node: '4'
-    skip_cleanup: true
-    region: eu-west-1
-
-  - provider: releases
-    api_key:
-      secure: '6ZAGYXr+qARGBUS3D+0jCLoT8gwJ22SBAoGxnJHc3c+jUFX1jw4ZTbLHcgjMPGyn077vZxJSK15MJrv5loglhKHOntbzrmbLtu+RPiCScY3F0PRaPWpbKLAQJTjKchUlR8BM4fWtQ/6EJy8uwneu9n+wfl8r/m8fmojh3LipKDOAKR5Kj82rjzMly4Y26SQRIM8+3uvl0pILjVkcQ0wLoKZpKCJKvyMzPL7aqdi7vSNRnJlMlaMItaKD/dcu6lspGGSqtwAYFr1wCn62sA2M+ChVrM6YO2kJWCpzstR7/j0+Pf0a8DlWv8bo5CcdPZrW9Q3ypggGCs3eDSG3MRj0JzqGPdCZ7XykcywDaYp1wjeQqrBpqY30mb5m3gafEYjjE/9utraVtDd9dzNJvidwZH+yMMz/FaHewl0rCPUn9ckL6usk1SkUa88HDEm5UWttEKlp/QlotlxIHbHW6rRK3170qt1Qei9uhyQGn0oBkywQj3dpZUW7YwqCfFr0yO9nghxwCJ4U15+CjELGf5frNkPwWgq1gtpx9lkK3pvrDsrcVQVnopQ6hidtDiDN/OL0t14JlalbTP7PLQnjzglX3RXlnZjINZAbB9Nl1gRD177q+G6krvP4Pdz/A9ITR3iWPc4d/NhtGX4gym5NNWt/naZlm0HEiv9D6XE0tx56aPE='
-    file:
-      - "seng-*.zip"
-      - "seng-*.tar.gz"
-    file_glob: true
-    on:
-      tags: true
-      node: '4'
-    skip_cleanup: true
-
-addons:
-  code_climate:
-    repo_token:
-      secure: '2kAAXza39GzUgnbNp+Tyjli1ezH6u4lt5X23R1ft2LiQhQEP9fM9CgMkOqEUU+MftDXBeljQMOp6hfIyqa/LGn0mNmcBkCM1zxeX4ey0oQyXbBqw+CWaYe0HMKPx4DchYKTmVPcvf9UKLMX+VthG73+2i1YB5LUtLCZ3DgObn7vzUOUL7SW1obBBVkkFbgNEAK3232Uun0ryc8+GQK95vHoQnxuRIWkUDh5H3WTGeiyo8VoVIQmfAE/WTF2SRp1+9TBYKmuxqANIvZPrXLR2/pWZS51+V1YNllVwoVIHMN9V2MB6PFTQgiBCHRp9XYt3vIw+1GvmyIeob3/99C0ckuBm/HtgXTUeFu/Sh1YXdYKG//egIJP21uWpxLxR3yYCqW6YfVKZmQD23kxG/DaRzGNwaD2n8UOdZiaGnkEOgl5CojzF00HOzoW+VmB1AVU8WZahZFLl1KRw7EzM8eqCTeaauxnPDUbCMN1sc/beahFvkxwphUX01wLE8X+Wf1wNzYUMvVNbpoeJux8mS7WuHUAGLkXOTyXpWvW4n4yeFw22gnsNPQ2wK3WdHo+mG+tvAQS60ib+Vs3RWh5PgzUw5GmDa1EoVeXlsW1mh7philRz3dj9V1i6MXInWzMNqfW98qh5zEq5NHSWQTQG134q+q5UTv6GwuZUoHG6WU3i1LA='
